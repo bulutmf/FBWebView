@@ -1,0 +1,12 @@
+FBWebView is a customized UIWebView. In order to use it, just add FBWebView.h/m files to your working directory. 
+You can init FBWebView from any place. Just present it as a model view controller as I included UINavigationBar in the UI. 
+In FBWebView there is an option to open webpage in the built-in Safari webbrowser, Sharing the link through the twitter or e-mail.
+
+Note: Don't forget to add MessageUI and Twitter framework to get sharing work correctly.
+
+Usage: 
+    
+    FBWebView *fb = [[FBWebView alloc] initWithNibName:@"FBWebView" bundle:nil];
+    [fb setLink:@"http://fatih-bulut.blogspot.com"];
+    [self presentModalViewController:fb animated:YES];
+
