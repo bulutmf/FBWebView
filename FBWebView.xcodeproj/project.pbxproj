@@ -19,6 +19,8 @@
 		3D45046D15DDF0F4003CFD05 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D45046B15DDF0F4003CFD05 /* ViewController.xib */; };
 		3D45047015DDF0FE003CFD05 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D45046E15DDF0FE003CFD05 /* left.png */; };
 		3D45047115DDF0FE003CFD05 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D45046F15DDF0FE003CFD05 /* right.png */; };
+		3D885D1415DDF16E008CFEBB /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D885D1315DDF16E008CFEBB /* Twitter.framework */; };
+		3D885D1715DDF173008CFEBB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D885D1615DDF173008CFEBB /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		3D45046B15DDF0F4003CFD05 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		3D45046E15DDF0FE003CFD05 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
 		3D45046F15DDF0FE003CFD05 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		3D885D1315DDF16E008CFEBB /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		3D885D1615DDF173008CFEBB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D885D1715DDF173008CFEBB /* MessageUI.framework in Frameworks */,
+				3D885D1415DDF16E008CFEBB /* Twitter.framework in Frameworks */,
 				3D45044815DDF023003CFD05 /* UIKit.framework in Frameworks */,
 				3D45044A15DDF023003CFD05 /* Foundation.framework in Frameworks */,
 				3D45044C15DDF023003CFD05 /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +82,8 @@
 		3D45044615DDF022003CFD05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D885D1615DDF173008CFEBB /* MessageUI.framework */,
+				3D885D1315DDF16E008CFEBB /* Twitter.framework */,
 				3D45044715DDF022003CFD05 /* UIKit.framework */,
 				3D45044915DDF023003CFD05 /* Foundation.framework */,
 				3D45044B15DDF023003CFD05 /* CoreGraphics.framework */,
@@ -289,6 +297,7 @@
 				3D45046315DDF023003CFD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
