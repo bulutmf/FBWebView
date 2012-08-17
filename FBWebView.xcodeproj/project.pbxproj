@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D45044815DDF023003CFD05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D45044715DDF022003CFD05 /* UIKit.framework */; };
+		3D45044A15DDF023003CFD05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D45044915DDF023003CFD05 /* Foundation.framework */; };
+		3D45044C15DDF023003CFD05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D45044B15DDF023003CFD05 /* CoreGraphics.framework */; };
+		3D45045215DDF023003CFD05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D45045015DDF023003CFD05 /* InfoPlist.strings */; };
+		3D45045415DDF023003CFD05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45045315DDF023003CFD05 /* main.m */; };
+		3D45045815DDF023003CFD05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45045715DDF023003CFD05 /* AppDelegate.m */; };
+		3D45045B15DDF023003CFD05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45045A15DDF023003CFD05 /* ViewController.m */; };
+		3D45045E15DDF023003CFD05 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D45045C15DDF023003CFD05 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D45044315DDF022003CFD05 /* FBWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D45044715DDF022003CFD05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D45044915DDF023003CFD05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D45044B15DDF023003CFD05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D45044F15DDF023003CFD05 /* FBWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBWebView-Info.plist"; sourceTree = "<group>"; };
+		3D45045115DDF023003CFD05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D45045315DDF023003CFD05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D45045515DDF023003CFD05 /* FBWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBWebView-Prefix.pch"; sourceTree = "<group>"; };
+		3D45045615DDF023003CFD05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D45045715DDF023003CFD05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D45045915DDF023003CFD05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D45045A15DDF023003CFD05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D45045D15DDF023003CFD05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D45044015DDF022003CFD05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D45044815DDF023003CFD05 /* UIKit.framework in Frameworks */,
+				3D45044A15DDF023003CFD05 /* Foundation.framework in Frameworks */,
+				3D45044C15DDF023003CFD05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D45043815DDF022003CFD05 = {
+			isa = PBXGroup;
+			children = (
+				3D45044D15DDF023003CFD05 /* FBWebView */,
+				3D45044615DDF022003CFD05 /* Frameworks */,
+				3D45044415DDF022003CFD05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D45044415DDF022003CFD05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D45044315DDF022003CFD05 /* FBWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D45044615DDF022003CFD05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D45044715DDF022003CFD05 /* UIKit.framework */,
+				3D45044915DDF023003CFD05 /* Foundation.framework */,
+				3D45044B15DDF023003CFD05 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D45044D15DDF023003CFD05 /* FBWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3D45045615DDF023003CFD05 /* AppDelegate.h */,
+				3D45045715DDF023003CFD05 /* AppDelegate.m */,
+				3D45045915DDF023003CFD05 /* ViewController.h */,
+				3D45045A15DDF023003CFD05 /* ViewController.m */,
+				3D45045C15DDF023003CFD05 /* ViewController.xib */,
+				3D45044E15DDF023003CFD05 /* Supporting Files */,
+			);
+			path = FBWebView;
+			sourceTree = "<group>";
+		};
+		3D45044E15DDF023003CFD05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D45044F15DDF023003CFD05 /* FBWebView-Info.plist */,
+				3D45045015DDF023003CFD05 /* InfoPlist.strings */,
+				3D45045315DDF023003CFD05 /* main.m */,
+				3D45045515DDF023003CFD05 /* FBWebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D45044215DDF022003CFD05 /* FBWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D45046115DDF023003CFD05 /* Build configuration list for PBXNativeTarget "FBWebView" */;
+			buildPhases = (
+				3D45043F15DDF022003CFD05 /* Sources */,
+				3D45044015DDF022003CFD05 /* Frameworks */,
+				3D45044115DDF022003CFD05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBWebView;
+			productName = FBWebView;
+			productReference = 3D45044315DDF022003CFD05 /* FBWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D45043A15DDF022003CFD05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = ubicomp;
+			};
+			buildConfigurationList = 3D45043D15DDF022003CFD05 /* Build configuration list for PBXProject "FBWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D45043815DDF022003CFD05;
+			productRefGroup = 3D45044415DDF022003CFD05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D45044215DDF022003CFD05 /* FBWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D45044115DDF022003CFD05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D45045215DDF023003CFD05 /* InfoPlist.strings in Resources */,
+				3D45045E15DDF023003CFD05 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D45043F15DDF022003CFD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D45045415DDF023003CFD05 /* main.m in Sources */,
+				3D45045815DDF023003CFD05 /* AppDelegate.m in Sources */,
+				3D45045B15DDF023003CFD05 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D45045015DDF023003CFD05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D45045115DDF023003CFD05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D45045C15DDF023003CFD05 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D45045D15DDF023003CFD05 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D45045F15DDF023003CFD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D45046015DDF023003CFD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D45046215DDF023003CFD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBWebView/FBWebView-Prefix.pch";
+				INFOPLIST_FILE = "FBWebView/FBWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D45046315DDF023003CFD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBWebView/FBWebView-Prefix.pch";
+				INFOPLIST_FILE = "FBWebView/FBWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D45043D15DDF022003CFD05 /* Build configuration list for PBXProject "FBWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D45045F15DDF023003CFD05 /* Debug */,
+				3D45046015DDF023003CFD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D45046115DDF023003CFD05 /* Build configuration list for PBXNativeTarget "FBWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D45046215DDF023003CFD05 /* Debug */,
+				3D45046315DDF023003CFD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D45043A15DDF022003CFD05 /* Project object */;
+}
